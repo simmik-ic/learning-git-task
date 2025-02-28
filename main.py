@@ -7,6 +7,7 @@ zakupy = {
 print("LISTA ZAKUPÓW")
 for sklep, produkty in zakupy.items():
     produkty = [produkt.capitalize() for produkt in produkty]
+    produkty = sorted(produkty)
     print(f"Idę do {sklep.capitalize()} i kupuję tam {produkty}")
 
 liczbaproduktow = sum(len(produkty) for produkty in zakupy.values())
