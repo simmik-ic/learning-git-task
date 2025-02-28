@@ -15,3 +15,9 @@ liczbaproduktow = sum(len(produkty) for produkty in zakupy.values())
 
 print(f"W sumie kupuję {liczbaproduktow} produktów.")
 print("Miłego dnia!")
+
+#poniżej specjalne pozdrowienia dla mentora
+greetings="Specjalne pozdrowienia dla najlepszego Mentora na świecie!!!"
+line="-"*len(greetings)
+print(line)
+print(greetings)
