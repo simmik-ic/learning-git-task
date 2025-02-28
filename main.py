@@ -1,7 +1,7 @@
 #Zadanie 1
 zakupy = {
-    "piekarnia": ["chleb", "bułki", "pączek"],
-    "warzywniak": ["marchew", "seler", "rukola"]
+    "piekarnia": ["chleb", "bułki", "pączek", "rogal", "bagietka", "drożdżówka"],
+    "warzywniak": ["marchew", "seler", "rukola", "szczypiorek gruby", "papryka"]
 }
 
 print("LISTA ZAKUPÓW")
