@@ -1,7 +1,7 @@
 #Zadanie 1
 zakupy = {
     "piekarnia": ["chleb", "bułki", "pączek", "rogal", "bagietka", "drożdżówka"],
-    "warzywniak": ["marchew", "seler", "rukola", "szczypiorek gruby", "papryka"],
+    "warzywniak": ["marchew", "seler", "rukola", "szczypiorek gruby", "papryka", "pietruszka", "roszponka"],
     "pasmanteria": ["igła"]
 }
 
@@ -18,6 +18,5 @@ print("Miłego dnia!")
 
 #poniżej specjalne pozdrowienia dla mentora
 greetings="Specjalne pozdrowienia dla najlepszego Mentora na świecie!!!"
-line="-"*len(greetings)
-print(line)
+print("-"*len(greetings))
 print(greetings)
